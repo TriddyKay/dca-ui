@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react'
+import React, {useContext, useEffect, useState} from 'react'
 import {Button, Card, Container} from "semantic-ui-react"
 import {BeansRepublique, Darling, MobyDick, MrFoxx} from "../../services/BreakkyBlogService"
 import '../../styles/blog-selection.css'
-import _ from 'lodash'
 import {Link} from "../triddys-router/Link"
+import {BlogContext} from "../../BlogContext/BlogContext"
 
 export type BreakkyBlog = {
   title: string
@@ -18,8 +18,8 @@ export type FileType = {
 }
 
 export const BreakkyBlogs = () => {
+  const {setBlog} = useContext(BlogContext)
   const [blogs, setBlogs] = useState<any[]>([])
-  const [presentingBlog, setPresentingBlog] = useState<BreakkyBlog | null>(null)
 
   useEffect(() => {
     const blogs = [BeansRepublique, MrFoxx, Darling, MobyDick]
@@ -37,22 +37,17 @@ export const BreakkyBlogs = () => {
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
-            <Button content={<Link className={''} href={`/blog/${_.kebabCase((blog.title))}`} isBlogLink={true}>
+            <Button content={<Link className={''} href={'/blog'} isBlogLink={true}>
                                Read More...
                              </Link>}
                     color={'blue'}
-                    onClick={() => selectBlog(blog)}
+                    onClick={() => setBlog(blog)}
                     inverted
             />
           </Card.Content>
         </Card>
       )
     })
-  }
-
-  const selectBlog = (blog: BreakkyBlog) => {
-    setPresentingBlog(blog)
-    // props.handleIsBlogPicked()
   }
 
   return (

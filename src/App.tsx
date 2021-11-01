@@ -1,7 +1,7 @@
 import './App.css';
 import {DCContainer} from "./components/DCContainer";
 
-function App() {
+export const App = () => {
   return (
     <DCContainer/>
   );

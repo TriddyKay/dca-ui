@@ -1,26 +1,18 @@
-import React from 'react';
-import {BreakkyBlog} from "./breakky-blogs/BreakkyBlogs"
+import React, {useContext} from 'react'
+import {BlogContext} from "../BlogContext/BlogContext"
+import {Container, Header} from "semantic-ui-react"
 
-type Props = {
-  blog: BreakkyBlog
-}
-
-export class Blog extends React.Component<Props> {
-
-  render() {
-    const { blog } = this.props
+export const Blog = () => {
+    const {blog} = useContext(BlogContext)
 
     return (
-      <div className={'blogContainer'}>
-        <div className={'blog'}>
+      <Container className={'blogContainer'}>
           <div className={'blogTitle'}>
-            <p>{blog.title}</p>
+            <Header as={'h1'}>{blog?.title ?? ''}</Header>
           </div>
           <div className={'blogRestaurant'}>
           </div>
-          <p dangerouslySetInnerHTML={{ __html: `${blog.blogText}` }}/>
-        </div>
-      </div>
+          <p dangerouslySetInnerHTML={{ __html: `${blog?.blogText ?? ''}` }}/>
+      </Container>
     )
-  }
 }

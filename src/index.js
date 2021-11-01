@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
+import {BlogProvider} from "./BlogContext/BlogProvider";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BlogProvider>
+      <App />
+    </BlogProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
