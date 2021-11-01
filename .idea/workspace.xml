@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DCContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DCContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dinner-dramas/DinnerDramas.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/BreakkyBlogService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/BreakkyBlogService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/DinnerClubService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DinnerClubService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blog-selection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog-selection.css" afterDir="false" />
-    </list>
+    <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +68,7 @@
       <updated>1635718366101</updated>
       <workItem from="1635718377813" duration="1587000" />
       <workItem from="1635720308929" duration="15963000" />
-      <workItem from="1635738154476" duration="3747000" />
+      <workItem from="1635738154476" duration="3855000" />
     </task>
     <servers />
   </component>

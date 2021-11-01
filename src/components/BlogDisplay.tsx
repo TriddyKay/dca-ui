@@ -29,7 +29,7 @@ export const BlogDisplay = ({mealType}: Props) => {
     mealType === Meal.BREAKFAST
       ? setBlogs(breakkyBlogs)
       : setBlogs(dinnerBlogs)
-  }, [])
+  }, [mealType])
 
   const getBlogCards = () => {
     return blogs.map((blog: Blog, index) => {
