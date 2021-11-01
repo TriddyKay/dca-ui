@@ -1,3 +1,5 @@
+import {Blog} from "../components/BlogDisplay"
+
 export const BeansRepublique = {
   title: 'Chilly Saturdays',
   restaurant: 'Bean Republique, Glen Iris',
@@ -75,3 +77,5 @@ export const MobyDick = {
   `,
   img: "https://res.cloudinary.com/dqsacxogt/image/upload/v1574671438/BlogPhotos/simisMimosa_eumarw.jpg"
 }
+
+export const breakkyBlogs: Blog[] = [BeansRepublique, MrFoxx, Darling, MobyDick]

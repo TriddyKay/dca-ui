@@ -4,9 +4,8 @@ import {RouteToComponent} from "./triddys-router/RouteToComponent"
 import {RoutingHeaders} from "./triddys-router/RoutingHeaders"
 import '../styles/dc-container.css'
 import {DCTitle} from "./DCTitle"
-import {BreakkyBlogs} from "./breakky-blogs/BreakkyBlogs"
 import {Blog} from "./Blog"
-import {DinnerDramas} from "./dinner-dramas/DinnerDramas"
+import {BlogDisplay, Meal} from "./BlogDisplay"
 
 export const DCContainer = () => {
   return (
@@ -14,8 +13,8 @@ export const DCContainer = () => {
       <DCTitle />
       <RoutingHeaders />
       <RouteToComponent path={'/'} location={<Home/>}/>
-      <RouteToComponent path={'/breakky-blogs'} location={<BreakkyBlogs/>}/>
-      <RouteToComponent path={'/dinner-dramas'} location={<DinnerDramas/>}/>
+      <RouteToComponent path={'/breakky-blogs'} location={<BlogDisplay mealType={Meal.BREAKFAST}/>}/>
+      <RouteToComponent path={'/dinner-dramas'} location={<BlogDisplay mealType={Meal.DINNER}/>}/>
       <RouteToComponent path={'/blog'} location={<Blog/>}/>
     </div>
   )

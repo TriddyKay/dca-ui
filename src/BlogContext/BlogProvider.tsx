@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {BlogContext} from './BlogContext'
-import {Blog} from "../components/breakky-blogs/BreakkyBlogs"
+import {Blog} from "../components/BlogDisplay"
 
 export const BlogProvider: React.FC = ({children}) => {
   const [blog, setBlog] = useState<Blog | null>(null)

@@ -5,3 +5,17 @@
 .new-label {
   margin-top: 10px !important;
 }
+
+.home-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.home-button {
+  padding: 0 !important;
+}
+
+.home-button-link {
+  padding: 8px 2px 9px 5.7px !important;
+}

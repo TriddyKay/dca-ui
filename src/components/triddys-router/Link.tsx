@@ -23,7 +23,7 @@ export const Link = (props: Props) => {
   return (
     <>
       {!props.isBlogLink &&
-        <Button content={
+        <Button className={props.className} content={
           <a className={props.className} href={props.href} onClick={(e) => onClick(e as unknown as MouseEvent)}>
             {props.children}
           </a>

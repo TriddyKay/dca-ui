@@ -1,3 +1,5 @@
+import {Blog} from "../components/BlogDisplay"
+
 export const rajbhog = {
   title: 'Rajbhog and the temple of doom',
   restaurant: 'Rajhbog, Templestowe',
@@ -327,4 +329,4 @@ export const vietStar = {
 }
 
 
-export const dinnerBlogs = [rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]
+export const dinnerBlogs: Blog[] = [rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]
