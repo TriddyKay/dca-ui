@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.blog-container {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.blog-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  font-weight: bold;
+}
+

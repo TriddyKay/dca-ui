@@ -14,8 +14,7 @@ export const DCContainer = () => {
       <RoutingHeaders />
       <RouteToComponent path={'/'} location={<Home/>}/>
       <RouteToComponent path={'/breakky-blogs'} location={<BreakkyBlogs/>}/>
-      <RouteToComponent path={'/blog'} location={<Blog/>}
-      />
+      <RouteToComponent path={'/blog'} location={<Blog/>}/>
     </div>
   )
 }
