@@ -1,5 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react'
-import {Button, Card, Container, Label} from "semantic-ui-react"
+import {Button, Card, Container} from "semantic-ui-react"
 import {BeansRepublique, Darling, MobyDick, MrFoxx} from "../../services/BreakkyBlogService"
 import '../../styles/blog-selection.css'
 import {Link} from "../triddys-router/Link"

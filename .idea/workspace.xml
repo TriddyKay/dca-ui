@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DCContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DCContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/blog-selection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog-selection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/dc-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/dc-container.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20I3cqFC3Wq5WdM9BG5IpkuYgLB" />
   <component name="ProjectViewState">
@@ -68,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1635718366101</updated>
       <workItem from="1635718377813" duration="1587000" />
-      <workItem from="1635720308929" duration="15802000" />
+      <workItem from="1635720308929" duration="15963000" />
+      <workItem from="1635738154476" duration="16000" />
     </task>
     <servers />
   </component>
