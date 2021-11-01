@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DCContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DCContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/blog-selection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/blog-selection.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/dc-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/dc-container.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -33,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -45,10 +49,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/BlogContext" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/breakky-blogs" />
@@ -64,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635718366101</updated>
       <workItem from="1635718377813" duration="1587000" />
-      <workItem from="1635720308929" duration="13956000" />
+      <workItem from="1635720308929" duration="15802000" />
     </task>
     <servers />
   </component>

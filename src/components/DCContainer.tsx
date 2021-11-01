@@ -6,6 +6,7 @@ import '../styles/dc-container.css'
 import {DCTitle} from "./DCTitle"
 import {BreakkyBlogs} from "./breakky-blogs/BreakkyBlogs"
 import {Blog} from "./Blog"
+import {DinnerDramas} from "./dinner-dramas/DinnerDramas"
 
 export const DCContainer = () => {
   return (
@@ -14,6 +15,7 @@ export const DCContainer = () => {
       <RoutingHeaders />
       <RouteToComponent path={'/'} location={<Home/>}/>
       <RouteToComponent path={'/breakky-blogs'} location={<BreakkyBlogs/>}/>
+      <RouteToComponent path={'/dinner-dramas'} location={<DinnerDramas/>}/>
       <RouteToComponent path={'/blog'} location={<Blog/>}/>
     </div>
   )

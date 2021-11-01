@@ -1,9 +1,9 @@
 import React from "react";
-import {BreakkyBlog} from "../components/breakky-blogs/BreakkyBlogs"
+import {Blog} from "../components/breakky-blogs/BreakkyBlogs"
 
 export type BlogContextType = {
-  blog: BreakkyBlog | null
-  setBlog: (blog: BreakkyBlog) => void
+  blog: Blog | null
+  setBlog: (blog: Blog) => void
 }
 
 export const BlogContext = React.createContext<BlogContextType>({

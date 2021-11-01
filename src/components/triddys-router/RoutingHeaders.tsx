@@ -7,8 +7,8 @@ export const RoutingHeaders = () => {
       <Link className={''} href={'/breakky-blogs'} isBlogLink={false}>
         Breakky Blogs
       </Link>
-      <Link className={''} href={'/dinner-drama'} isBlogLink={false}>
-        Dinner Drama
+      <Link className={''} href={'/dinner-dramas'} isBlogLink={false}>
+        Dinner Dramas
       </Link>
     </div>
   )

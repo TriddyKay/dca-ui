@@ -1,24 +1,19 @@
 import React, {useContext, useEffect, useState} from 'react'
 import {Button, Card, Container, Label} from "semantic-ui-react"
-import {BeansRepublique, Darling, MobyDick, MrFoxx} from "../../services/BreakkyBlogService"
 import '../../styles/blog-selection.css'
 import {Link} from "../triddys-router/Link"
 import {BlogContext} from "../../BlogContext/BlogContext"
+import {Blog} from "../breakky-blogs/BreakkyBlogs"
+import {
+  dinnerBlogs,
+} from "../../services/DinnerClubService"
 
-export type Blog = {
-  title: string
-  restaurant: string
-  blogText: string
-  image: string
-}
-
-export const BreakkyBlogs = () => {
+export const DinnerDramas = () => {
   const {setBlog} = useContext(BlogContext)
   const [blogs, setBlogs] = useState<any[]>([])
 
   useEffect(() => {
-    const blogs = [BeansRepublique, MrFoxx, Darling, MobyDick]
-    setBlogs(blogs)
+    setBlogs(dinnerBlogs)
   }, [])
 
   const getBlogCards = () => {
@@ -33,12 +28,13 @@ export const BreakkyBlogs = () => {
           </Card.Content>
           <Card.Content extra>
             <Button content={<Link className={''} href={'/blog'} isBlogLink={true}>
-                               Read More...
-                             </Link>}
+              Read More...
+            </Link>}
                     color={'blue'}
                     onClick={() => setBlog(blog)}
                     inverted
             />
+            {index === 0 && <Label className={'new-label'} color={'red'} content={'new!!'}/>}
           </Card.Content>
         </Card>
       )
@@ -47,11 +43,11 @@ export const BreakkyBlogs = () => {
 
   return (
     <React.Fragment>
-        <Container className={'blog-selection'}>
-          <Card.Group itemsPerRow={2}>
-            { getBlogCards() }
-          </Card.Group>
-        </Container>
+      <Container className={'blog-selection'}>
+        <Card.Group itemsPerRow={2}>
+          { getBlogCards() }
+        </Card.Group>
+      </Container>
     </React.Fragment>
   )
 }
