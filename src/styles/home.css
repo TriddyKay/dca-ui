@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.home-container {
+  /*height: 70vh;*/
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram {
+  margin-top: 20px;
+  height: 60px;
+  width: auto;
+}
+
+.moustache {
+  height: 150px;
+  width: auto;
+}
+
+.teaser {
+  width: 50vw;
+  font-size: 20px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  font-weight: bold;
+}

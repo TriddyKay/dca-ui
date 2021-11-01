@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+.dc-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A9D3FF !important;
+  height: 8vh;
+}
+
+.dc-title {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
+  font-weight: bolder !important;
+  color: #FF785A !important;
+}

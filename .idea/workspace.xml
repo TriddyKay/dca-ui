@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DCContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DCContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Not a Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Not a Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Other.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Second.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/RouteToComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/RouteToComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,20 +42,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/breakky-blogs" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
@@ -55,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635718366101</updated>
       <workItem from="1635718377813" duration="1587000" />
-      <workItem from="1635720308929" duration="4983000" />
+      <workItem from="1635720308929" duration="11516000" />
     </task>
     <servers />
   </component>

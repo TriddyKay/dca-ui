@@ -1,16 +1,14 @@
 import React from 'react'
 import {Link} from "./Link"
-import {Other} from "../Other"
-import {Second} from "../Second"
 
 export const RoutingHeaders = () => {
   return (
-    <div className="ui secondary pointing menu">
-      <Link className={''} href={'/'}>
-        <Other/>
+    <div className="blog-buttons">
+      <Link className={''} href={'/breakky-blogs'} isBlogLink={false}>
+        Breakky Blogs
       </Link>
-      <Link className={''} href={'/second'}>
-        <Second/>
+      <Link className={''} href={'/dinner-drama'} isBlogLink={false}>
+        Dinner Drama
       </Link>
     </div>
   )

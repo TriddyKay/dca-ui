@@ -1,15 +1,18 @@
 import React from 'react'
-import {Other} from "./Other"
-import {Second} from "./Second"
+import {Home} from "./Home"
 import {RouteToComponent} from "./triddys-router/RouteToComponent"
 import {RoutingHeaders} from "./triddys-router/RoutingHeaders"
+import '../styles/dc-container.css'
+import {DCTitle} from "./DCTitle"
+import {BreakkyBlogs} from "./breakky-blogs/BreakkyBlogs"
 
 export const DCContainer = () => {
   return (
-    <div>
+    <div className={'dc-container'}>
+      <DCTitle />
       <RoutingHeaders />
-      <RouteToComponent path={'/'} location={<Other/>}/>
-      <RouteToComponent path={'/second'} location={<Second/>}/>
+      <RouteToComponent path={'/'} location={<Home/>}/>
+      <RouteToComponent path={'/breakky-blogs'} location={<BreakkyBlogs/>}/>
     </div>
   )
 }
