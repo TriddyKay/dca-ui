@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/breakky-blogs/BreakkyBlogs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <updated>1635718366101</updated>
       <workItem from="1635718377813" duration="1587000" />
       <workItem from="1635720308929" duration="15963000" />
-      <workItem from="1635738154476" duration="16000" />
+      <workItem from="1635738154476" duration="324000" />
     </task>
     <servers />
   </component>
