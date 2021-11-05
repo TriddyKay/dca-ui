@@ -328,5 +328,51 @@ export const vietStar = {
   img: "https://res.cloudinary.com/dqsacxogt/image/upload/v1580796557/BlogPhotos/vietKnicky_hqkdpw.jpg"
 }
 
+export const penangCoffeeHouse = {
+  title: '7pm Brunch at the Penang Coffee House',
+  restaurant: 'Viet Star, Glenferrie',
+  blogText: `
+  Dinner club finally got the courage to explore the diverse local cuisines that Hawthorn has to offer.
+  <br>
+  <br>
+  It's about time the original 3 members (Bockers Santini, Trizzy Rascal and Hagrid Simitzis) were flying solo again with no intruders. 
+  The exciting occasion would find them in a rather unusual restaurant for the first time in a while: Pengang Coffee House!
+  <br>
+  <br>
+  Hagrid views the menu
+  <br>
+  <br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1636106168/simi_alone_v58kfx.jpg" alt="" height="200px" width="auto"/>
+  <br>
+  <br>
+  Pengang Coffee house was chosen, as triz had heard about its secret coffee club out the back but was unfortunately denied entry due to his blue socks and thongs.
+  <br>
+  <br>
+  Upon entering this establishment, your first thoughts are; why am i back at the school cafeteria? Seats you'd find at the local yum cha, decor abused in baby blue, but a lovley smile on the old lady that runs the joint.
+  <br>
+  <br>
+  Bockers about to burst & piggy tucking in
+  <br>
+  <br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1636106168/tini-trid_yzyese.jpg" alt="" height="200px" width="auto"/>
+  <br>
+  <br>
+  Despite the institutional appearance, the roti with satay sauce and potato, skewers, Char Kway Teow were delicious, you name it the members got it all and devoured everything. The best dish was the satay skewers but the garlic prawns lacked the pazazz we were after.
+  <br>
+  <br>
+  Roti with that satay and potato (peanut sauce)
+  <br>
+  <br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1636106168/roti_vfu3bt.jpg" alt="" height="200px" width="auto"/>
+  <br>
+  <br>
+  5/10 Serving to price ratio<br>
+  1/10 wine from nick (Clares Secret)<br>
+  8/10 food<br>
+  7/10 would come back for some satay.<br>
+  <br>
+  `,
+  img: "https://res.cloudinary.com/dqsacxogt/image/upload/v1580796557/BlogPhotos/vietKnicky_hqkdpw.jpg"
+}
 
-export const dinnerBlogs: Blog[] = [rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]
+export const dinnerBlogs: Blog[] = [penangCoffeeHouse, rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]

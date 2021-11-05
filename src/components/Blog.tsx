@@ -9,8 +9,9 @@ export const Blog = () => {
     return (
       <Container className={'blog-container'}>
           <div className={'blog-title-container'}>
-            <Header as={'h1'} className={'title'}>{blog?.title ?? ''}</Header>
+            <Header as={'h1'} className={'title'} textAlign={'center'}>{blog?.title ?? ''}</Header>
           </div>
+          <br/>
           <div className={'blog-title-container'}>
             <Header as={'h3'} className={'title'}>{blog?.restaurant ?? ''}</Header>
           </div>

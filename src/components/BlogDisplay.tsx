@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from 'react'
 import {BlogContext} from "../BlogContext/BlogContext"
 import {dinnerBlogs} from "../services/DinnerClubService"
 import {breakkyBlogs} from "../services/BreakkyBlogService"
-import {Button, Card, Container, Icon} from "semantic-ui-react"
+import {Button, Card, Container, Icon, Label} from "semantic-ui-react"
 import {Link} from "./triddys-router/Link"
 import '../styles/blog-selection.css'
 
@@ -36,10 +36,14 @@ export const BlogDisplay = ({mealType}: Props) => {
       return (
         <Card key={index}>
           <Card.Content>
-            <Card.Header>{blog.title}</Card.Header>
-            <Card.Description>
+            <Card.Header textAlign={'center'}>{blog.title}</Card.Header>
+            <Card.Description textAlign={'center'}>
               {blog.restaurant}
             </Card.Description>
+            {index === 0 &&
+            <Card.Description textAlign={'center'}>
+              <Label color={'red'} content={'New!'}/>
+            </Card.Description>}
           </Card.Content>
           <Card.Content extra>
             <Button content={
@@ -49,6 +53,7 @@ export const BlogDisplay = ({mealType}: Props) => {
                     color={'blue'}
                     onClick={() => setBlog(blog)}
                     inverted/>
+            <br/>
           </Card.Content>
         </Card>
       )
