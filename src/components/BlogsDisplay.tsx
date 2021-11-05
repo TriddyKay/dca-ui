@@ -21,7 +21,7 @@ type Props = {
   mealType: Meal
 }
 
-export const BlogDisplay = ({mealType}: Props) => {
+export const BlogsDisplay = ({mealType}: Props) => {
   const { setBlog } = useContext(BlogContext)
   const [blogs, setBlogs] = useState<Blog[]>([])
 

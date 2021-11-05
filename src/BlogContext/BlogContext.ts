@@ -1,5 +1,5 @@
 import React from "react";
-import {Blog} from "../components/BlogDisplay"
+import {Blog} from "../components/BlogsDisplay"
 
 export type BlogContextType = {
   blog: Blog | null

@@ -1,4 +1,4 @@
-import {Blog} from "../components/BlogDisplay"
+import {Blog} from "../components/BlogsDisplay"
 
 export const rajbhog = {
   title: 'Rajbhog and the temple of doom',
