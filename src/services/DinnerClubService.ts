@@ -330,7 +330,7 @@ export const vietStar = {
 
 export const penangCoffeeHouse = {
   title: '7pm Brunch at the Penang Coffee House',
-  restaurant: 'Viet Star, Glenferrie',
+  restaurant: 'Penang Coffee House',
   blogText: `
   Dinner club finally got the courage to explore the diverse local cuisines that Hawthorn has to offer.
   <br>
@@ -345,7 +345,7 @@ export const penangCoffeeHouse = {
   <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1636106168/simi_alone_v58kfx.jpg" alt="" height="200px" width="auto"/>
   <br>
   <br>
-  Pengang Coffee house was chosen, as triz had heard about its secret coffee club out the back but was unfortunately denied entry due to his blue socks and thongs.
+  PenGang Coffee house was chosen, as triz had heard about its secret coffee club out the back but was unfortunately denied entry due to his blue socks and thongs.
   <br>
   <br>
   Upon entering this establishment, your first thoughts are; why am i back at the school cafeteria? Seats you'd find at the local yum cha, decor abused in baby blue, but a lovley smile on the old lady that runs the joint.
@@ -357,7 +357,7 @@ export const penangCoffeeHouse = {
   <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1636106168/tini-trid_yzyese.jpg" alt="" height="200px" width="auto"/>
   <br>
   <br>
-  Despite the institutional appearance, the roti with satay sauce and potato, skewers, Char Kway Teow were delicious, you name it the members got it all and devoured everything. The best dish was the satay skewers but the garlic prawns lacked the pazazz we were after.
+  Despite the institutional appearance, the roti with satay sauce and potato, skewers, Char Kway Teow were delicious, you name it the members got it all and devoured everything. The best dish was the satay skewers (Well done merang cafe) but the garlic prawns lacked the pazazz we were after.
   <br>
   <br>
   Roti with that satay and potato (peanut sauce)

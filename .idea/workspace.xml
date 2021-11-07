@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e9aa3cc-4998-4d8f-93bc-cfe270316568" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogContext.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogContext/BlogProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogsDisplay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DCContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DCContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/triddys-router/RoutingHeaders.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/BreakkyBlogService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/BreakkyBlogService.ts" afterDir="false" />
