@@ -330,7 +330,7 @@ export const vietStar = {
 
 export const penangCoffeeHouse = {
   title: '7pm Brunch at the Penang Coffee House',
-  restaurant: 'Penang Coffee House',
+  restaurant: 'Penang Coffee House, Hawthorn',
   blogText: `
   Dinner club finally got the courage to explore the diverse local cuisines that Hawthorn has to offer.
   <br>
@@ -375,4 +375,39 @@ export const penangCoffeeHouse = {
   img: "https://res.cloudinary.com/dqsacxogt/image/upload/v1580796557/BlogPhotos/vietKnicky_hqkdpw.jpg"
 }
 
-export const dinnerBlogs: Blog[] = [penangCoffeeHouse, rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]
+export const littleHongKong = {
+  title: 'Big Trouble in Little Hong Kong',
+  restaurant: 'Little Hong Kong, Hawthorn',
+  blogText: `
+  Once again, the members were forced to battle the elements on a wet and windy Friday night in order to enjoy a nice meal on the town. To our great fortune however, guest diner and resident Uber driver, Mikko Young, was able to take us, as well as regular guest diner Gus, down the road to Little Hong Kong.<br>
+  <br>
+  Upon entering, we were greeted by the warm smile of an Asian grandmother and shown our seats, which were all fantastic apart from Tris’, who sat alone on the kids table. The menus were extremely sticky and certainly looked like they’d done their time on the tables. However, we all found something we liked and got to ordering.<br>
+  <br>
+  Kids table
+  <br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1637217585/BlogPhotos/kidstable_skjq7h.png" alt="" height="200px" width="auto"/>
+  <br>
+  <br>
+  The food came out at a good pace, some highlights included the curry chicken in clay pot, the San Choy Bao, and according to Mikko and Christian, the lemon chicken was delightful. Christian also wanted to order sweet and sour pork, however I had to remind him we weren’t in the Chadstone food court and that perhaps it would be good to try some other delights.<br>
+  <br>
+  <br>
+  Beautiful food and lemon chicken<br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1637217585/BlogPhotos/samosa_nowgcw.png" alt="" height="150px" width="auto"/>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1637217585/BlogPhotos/dish1_hqfm7x.png" alt="" height="150px" width="auto"/>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1637217585/BlogPhotos/dish2_f5wtii.png" alt="" height="150px" width="auto"/>
+  <br>
+  <br>
+  Overall, a great feed in a cozy little restaurant, would return for sure.<br>
+  Weather – 1/10<br>
+  Staff – 9/10<br>
+  Food – 7.5/10<br>
+  Mikko’s Driving – 10/10<br>
+  <br>
+  Uber Mikko
+  <br>
+  <img src="https://res.cloudinary.com/dqsacxogt/image/upload/v1637217584/BlogPhotos/ubermik_otpfpz.png" alt="" height="200px" width="auto"/>
+  `,
+  img: "https://res.cloudinary.com/dqsacxogt/image/upload/v1580796557/BlogPhotos/vietKnicky_hqkdpw.jpg"
+}
+
+export const dinnerBlogs: Blog[] = [littleHongKong, penangCoffeeHouse, rajbhog, ILoveDumplings, EmpressOfChina, Madaeya, TaoDumplings, ThaiToGo, MalvenVale, SubiQKoreanBBQ, ReturnOfTheTao, dragonDumplingHouse, vietStar]
