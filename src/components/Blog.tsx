@@ -16,7 +16,9 @@ export const Blog = () => {
             <Header as={'h3'} className={'title'}>{blog?.restaurant ?? ''}</Header>
           </div>
         <Divider/>
+        <div className={'blog-body'}>
           <p dangerouslySetInnerHTML={{ __html: `${blog?.blogText ?? ''}` }}/>
+        </div>
       </Container>
     )
 }

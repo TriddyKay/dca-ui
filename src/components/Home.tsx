@@ -17,8 +17,11 @@ export const Home = () => {
       </div>
       <div className={'teaser'}>
         Chriz Chrysler, Panini D Dragon & Trizzy Rascal pick up sporks to take on the world...
+        <br/>
+        <br/>
       </div>
-      <Header className={'hot-tip'} as={'h2'}>Hot tip: Maybe fire the barista?</Header>
+      <img src={"https://res.cloudinary.com/dqsacxogt/image/upload/v1637218907/BlogPhotos/Screen_Shot_2021-11-18_at_6.01.23_pm_tcp0ch.png"} alt={''} height="250px" width="auto"/>
+        <Header className={'hot-tip'} as={'h2'}>Hot tip: Maybe fire the barista?</Header>
     </div>
   )
 }
